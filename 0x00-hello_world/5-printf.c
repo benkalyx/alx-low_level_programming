@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-  This script shows how the printf function works. 
+ * This script shows how the printf function works. 
 */
 
 int main(void) 
