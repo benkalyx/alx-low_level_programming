@@ -1,29 +1,22 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
 /**
-* main - A program to assign a random number and test with conditions
-
-* Return : 0 (Success)
-*/
+* main - A program to test the condition of a random number
+* Return: 0 (Success)
+/* betty style doc for function main goes there */
 int main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+/* your code goes there */
 if
 (n > 0);
-{
-printf("is positive");
-}
+printf("%d is positive");
 else if
-(n < 0);
-{
-printf("is negative");
-}
+(n == 0);
+printf("%d is zero");
 else
-{
-printf("is zero");
-}
+printf("%d is negative")
 return (0);
 }
