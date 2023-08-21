@@ -11,14 +11,14 @@ int main(void)
 	time_t t;
 
 	srand((unsigned int) time(&t));
-	while (random < 4567)
+	while (random < 2772)
 	{
 		password = rand() % 128;
-		if ((random + password) > 4567)
+		if ((random + password) > 2772)
 			break;
 		random = random + password;
 		printf("%c", password);
 	}
-	printf("%c\n", (4567 - random));
+	printf("%c\n", (2772 - random));
 	return (0);
 }
