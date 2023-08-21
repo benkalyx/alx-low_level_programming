@@ -16,7 +16,7 @@ int _atoi(char *s)
 	digit = 0;
 
 	while (s[d] != '\0')
-		b++;
+		d++;
 	while (a < d && e == 0)
 	{
 		if (s[a] == '-')
