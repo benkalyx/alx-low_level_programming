@@ -2,7 +2,7 @@
 /**
 * reset_to_98 - A function that takes a pointer to an int as parameter
 *
-*@*n: A pointer passed to the function as argument
+*@n: A pointer passed to the function as argument
 *
 * Return: 0 as success
 */
