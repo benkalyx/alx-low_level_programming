@@ -1,8 +1,4 @@
 #include <stdio.h>
-/**
-* main - A program to output number
-* Return: 0
-*/
 int main(void)
 {
 	int n;
